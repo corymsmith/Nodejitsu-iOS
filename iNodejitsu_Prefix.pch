@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'iNodejitsu' target in the 'iNodejitsu' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#import "JSONFramework.h"
+#import "Nodejitsu.h"
+
+#define DLog(fmt, ...) NSLog((@"%s:%d| " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
